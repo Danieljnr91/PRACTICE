@@ -1,0 +1,6 @@
+BEGIN
+    READ num_1
+    READ num_2
+    SET total <- num_1 + num_2
+    DISPLAY total
+END

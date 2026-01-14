@@ -1,0 +1,9 @@
+BEGIN
+    READ number
+    SET total <- 0
+    FOR figure FROM 1 TO number DO
+       SET total = total + figure
+    ENDFOR
+    DISPLAY total
+
+END

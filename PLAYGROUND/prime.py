@@ -18,5 +18,5 @@ for j in range(range_list[0],range_list[1]):
 for k in prime:
     count+=1   
 print(prime)
-print(f"There are {count} prime numbers between {range_list[0]} and {range_list[1]}")
+print(f"There are [{count}] prime numbers between {range_list[0]} and {range_list[1]}")
 

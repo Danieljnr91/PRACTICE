@@ -1,0 +1,10 @@
+BEGIN
+    DISPLAY "Enter number you wish to generate its multiplication table"
+    READ num_gen
+    DISPLAY "Enter limit of generation"
+    READ limit
+    FOR i FROM 1 TO limit DO
+       SET answer <- num_gen * i
+       DISPLAY num_gen, "x", i ,"=", answer
+    ENDFOR
+END
