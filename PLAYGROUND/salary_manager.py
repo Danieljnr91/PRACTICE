@@ -47,7 +47,7 @@ class EmployeeSalaryManager:
     def display(self):
        print(f"\nEmployee Name: {self.name}")
        for key, value in self.employee_details_dict[self.name].items():
-          print(f"{key.title()} : {value}")
+          print(f"{key.title()} : ${value}")
 
             
 
@@ -73,4 +73,5 @@ while not control:
         control = True
 
 for i in employee_object_locations:
-    i.display("k")
+    i.display()
+    
