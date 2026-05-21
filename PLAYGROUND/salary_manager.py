@@ -45,9 +45,17 @@ class EmployeeSalaryManager:
                                                    "Remaining salary":round(remainder,2)
                                                    }
     def display(self):
-       print(f"\nEmployee Name: {self.name}")
-       for key, value in self.employee_details_dict[self.name].items():
+        print(f"\nEmployee Name: {self.name}")
+        for key, value in self.employee_details_dict[self.name].items():
           print(f"{key.title()} : ${value}")
+    def makeHistory(self):
+        with open("PayrollHistory.txt","a") as payrollHistory:
+            for key in self.employee_details_dict:
+                payrollHistory.write(key+"\n")
+                for value in self.employee_details_dict[self.name]:
+                    payrollHistory.write(value+":")
+                    payrollHistory.write(str(self.employee_details_dict[self.name][value])+"\n")
+                payrollHistory.write("\n")
 
             
 
@@ -74,4 +82,5 @@ while not control:
 
 for i in employee_object_locations:
     i.display()
+    i.makeHistory()
     

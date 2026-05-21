@@ -1,0 +1,40 @@
+Lartey Daniel
+total salary:450.0
+income tax:67.5
+national health:11.25
+district tax:4.5
+Child support:0
+Remaining salary:366.75
+
+Quartey Bimbini
+total salary:675.0
+income tax:101.25
+national health:16.88
+district tax:6.75
+Child support:1.5
+Remaining salary:548.62
+
+Kendrick Lamar
+total salary:115
+income tax:17.25
+national health:2.88
+district tax:1.15
+Child support:2.0
+Remaining salary:91.72
+
+James Bond
+total salary:225
+income tax:33.75
+national health:5.62
+district tax:2.25
+Child support:0
+Remaining salary:183.38
+
+Eric Sayz
+total salary:255.0
+income tax:38.25
+national health:6.38
+district tax:2.55
+Child support:0.5
+Remaining salary:207.32
+
