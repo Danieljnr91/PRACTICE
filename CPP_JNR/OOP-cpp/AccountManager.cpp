@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <iomanip>
 
 class AccountBalance{
     protected:
@@ -112,6 +113,7 @@ class ThirdPartyAccess : public AccountBalance{
 };
 
 int main(){
+    std::cout<<std::fixed<<std::setprecision(2);
     int accountPin;
     std::cout<<"Set a security pin for your account:";
     std::cin>>accountPin;

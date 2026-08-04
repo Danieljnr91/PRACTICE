@@ -38,3 +38,11 @@ district tax:2.55
 Child support:0.5
 Remaining salary:207.32
 
+Rick Grimes
+total salary:427.5
+income tax:64.12
+national health:10.69
+district tax:4.28
+Child support:0
+Remaining salary:348.41
+

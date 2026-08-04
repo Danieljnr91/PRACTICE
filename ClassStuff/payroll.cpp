@@ -5,7 +5,6 @@ int main(){
     std::string name;
     int rank;
     double monthlySalary;
-    double annualSalary;
     float hours;
     
 

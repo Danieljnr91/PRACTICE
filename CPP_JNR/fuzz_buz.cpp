@@ -12,7 +12,7 @@ int main()
     {
         if (k%2==0)
         {
-            cout << "Jemima" << "\n";
+            cout << "FuzzBuzz" << "\n";
         }
         else
         {
